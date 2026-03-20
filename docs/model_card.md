@@ -1,4 +1,4 @@
-MODEL CARD
+MODEL CARD-TRAFFIC SIGN CLASSIFIER
 ----------------------------------------------
 
 Model Details
