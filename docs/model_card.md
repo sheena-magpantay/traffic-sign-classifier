@@ -44,7 +44,7 @@ Training Data
 
   - Dataset consists of labeled traffic sign images.
 
-    Images are preprocessed using:
+**Images are preprocessed using:**
 
  -  Resizing (32×32)
 
