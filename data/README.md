@@ -1,7 +1,9 @@
 DATASETS:
 The datasets that will be used for this project proposal are from the following links:
 
-https://universe.roboflow.com/louie-pxb7x/philippine-traffic-sign-dataset-2-ykwa6-kgiii
-https://universe.roboflow.com/jerry-imbhm/philippine-traffic-sign-dataset-9kz1e-qvpnr
-https://universe.roboflow.com/ateneo-csci11803/30-philippine-traffic-sign-1wzfr
+-https://universe.roboflow.com/louie-pxb7x/philippine-traffic-sign-dataset-2-ykwa6-kgiii
+
+-https://universe.roboflow.com/jerry-imbhm/philippine-traffic-sign-dataset-9kz1e-qvpnr
+
+-https://universe.roboflow.com/ateneo-csci11803/30-philippine-traffic-sign-1wzfr
 
