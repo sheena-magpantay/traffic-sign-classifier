@@ -1,15 +1,15 @@
-**Model Card: Traffic Sign Recognition System**
+<img width="1043" height="271" alt="image" src="https://github.com/user-attachments/assets/c06e7ac6-fef6-4d91-b094-dacde67dca3b" />**Model Card: Traffic Sign Recognition System**
 ----------------------------------------------
 
 Model Details
 ----------------------------------------------
--A Traffic Sign Classification model based on a Convolutional Neural Network (CNN) architecture.
+ - A Traffic Sign Classification model based on a Convolutional Neural Network (CNN) architecture.
 
--Designed to classify road and traffic signs from image inputs.
+- Designed to classify road and traffic signs from image inputs.
 
--Built using PyTorch with preprocessing powered by OpenCV.
+- Built using PyTorch with preprocessing powered by OpenCV.
 
--Developed as an academic project.
+- Developed as an academic project.
 
 Intended Use
 ----------------------------------------------
@@ -44,7 +44,7 @@ Training Data
 
   - Dataset consists of labeled traffic sign images.
 
-  - Images are preprocessed using:
+    Images are preprocessed using:
 
  -  Resizing (32×32)
 
@@ -57,7 +57,9 @@ Metrics
 
 Classification metrics:
   - Accuracy, Precision, Recall, F1-score
+    
   - RL Cumulative Reward
+    
   - RL Success Rate
 
 Performance (Initial Results)
