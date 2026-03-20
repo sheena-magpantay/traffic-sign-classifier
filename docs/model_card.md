@@ -34,7 +34,7 @@ Factors
 
    - Lighting conditions (day/night, shadows)
 
-   - Weather conditions (rain, fog)
+   - Weather conditions (rain)
 
    - Image quality and resolution
 
