@@ -1,5 +1,3 @@
-<img width="1043" height="271" alt="image" src="https://github.com/user-attachments/assets/c06e7ac6-fef6-4d91-b094-dacde67dca3b" />**Model Card: Traffic Sign Recognition System**
-----------------------------------------------
 
 Model Details
 ----------------------------------------------
