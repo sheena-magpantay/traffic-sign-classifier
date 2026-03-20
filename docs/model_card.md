@@ -65,8 +65,6 @@ Classification metrics:
 Performance (Initial Results)
 ----------------------------------------------
 
-  - Baseline (Simple NN / ML): ~60–75% accuracy
-
   - CNN Model: ~80–90% accuracy (initial experiments)
 
   - Training shows decreasing loss and improving accuracy over epochs
