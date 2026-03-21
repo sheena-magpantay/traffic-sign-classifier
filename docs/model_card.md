@@ -7,7 +7,7 @@ Model Details
 
 - Designed to classify road and traffic signs from image inputs.
 
-- Built using PyTorch with preprocessing powered by OpenCV.
+- Built with image preprocessing powered by OpenCV.
 
 - Developed as an academic project.
 
@@ -33,9 +33,7 @@ Factors
   - Performance may vary depending on:
 
    - Lighting conditions (day/night, shadows)
-
-   - Weather conditions (rain)
-
+     
    - Image quality and resolution
 
 
@@ -48,9 +46,7 @@ Training Data
 
  -  Resizing (32×32)
 
-  - Color conversion (BGR → RGB via OpenCV)
-
-  - Labels correspond to predefined traffic sign categories.
+  - Labels correspond to predefined traffic sign categories (classified with folders).
 
 Metrics
 ----------------------------------------------
@@ -65,7 +61,7 @@ Classification metrics:
 Performance (Initial Results)
 ----------------------------------------------
 
-  - CNN Model: ~80–90% accuracy (initial experiments)
+  - CNN Model: 70% accuracy
 
   - Training shows decreasing loss and improving accuracy over epochs
 
