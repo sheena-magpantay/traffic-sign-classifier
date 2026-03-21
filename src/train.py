@@ -17,7 +17,6 @@ CHANNELS = 3
 BATCH_SIZE = 32
 EPOCHS = 30 
 
-# Ensure documentation directory exists
 if not os.path.exists(SCREENSHOT_DIR):
     os.makedirs(SCREENSHOT_DIR)
 
@@ -193,7 +192,7 @@ if __name__ == "__main__":
         stop_early = callbacks.EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True)
         reduce_lr = callbacks.ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=3)
 
-        print("\n--- Phase 1: CNN Training ---")
+        print("\n--- CNN Training ---")
         history = model.fit(
             X_train, y_train,
             validation_data=(X_val, y_val),
