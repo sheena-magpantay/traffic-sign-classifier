@@ -1,5 +1,5 @@
-MODEL CARD-TRAFFIC SIGN CLASSIFIER
-----------------------------------------------
+# MODEL CARD-TRAFFIC SIGN CLASSIFIER
+
 
 Model Details
 ----------------------------------------------
