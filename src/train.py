@@ -203,7 +203,7 @@ if __name__ == "__main__":
 
         generate_checkpoint_reports(model, history, X_val, y_val, label_map)
 
-        print("\n--- Phase 2: Explainable Inference ---")
+        print("\n--- To Explain ---")
         rl_agent = TrafficRLAgent(label_map)
         simulated_car_speed = 90 
 
