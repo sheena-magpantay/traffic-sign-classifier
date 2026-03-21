@@ -1,0 +1,20 @@
+                precision    recall  f1-score   support
+
+    greenlight       0.92      0.73      0.81        15
+      redlight       1.00      0.62      0.77        16
+speedlimit_100       0.63      0.36      0.46        33
+speedlimit_110       0.31      0.45      0.37        11
+speedlimit_120       0.62      0.74      0.68        35
+ speedlimit_20       0.92      1.00      0.96        33
+ speedlimit_30       0.50      0.41      0.45        51
+ speedlimit_40       0.18      0.33      0.23        15
+ speedlimit_50       0.72      0.59      0.65        39
+ speedlimit_60       0.64      0.74      0.69        47
+ speedlimit_70       0.65      0.59      0.62        51
+ speedlimit_80       0.38      0.52      0.44        46
+ speedlimit_90       0.33      0.08      0.12        13
+          stop       0.96      0.96      0.96        49
+
+      accuracy                           0.62       454
+     macro avg       0.62      0.58      0.59       454
+  weighted avg       0.65      0.62      0.62       454
