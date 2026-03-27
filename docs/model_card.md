@@ -15,18 +15,6 @@ Intended Use
 ----------------------------------------------
 This model is developed strictly for academic and educational purposes.
 
-**Intended for:**
-
-  - Demonstrating applications of Convolutional Neural Networks (CNNs) in Computer Vision
-
-  - Learning image classification techniques using traffic sign datasets
-
-   - Experimentation and research in machine learning workflows
-
-**Not intended for:**
-
-  - Real-world deployment in autonomous driving systems
-
 Factors
 ----------------------------------------------
 
