@@ -5,9 +5,11 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropou
 import matplotlib.pyplot as plt
 import os
 
-train_dir = "dataset_split/train"
-val_dir = "dataset_split/val"
-test_dir = "dataset_split/test"
+current_dir = os.path.dirname(os.path.abspath(__file__))
+base_data_path = os.path.join(current_dir, "..", "dataset_split")
+train_dir = os.path.join(base_data_path, "train")
+val_dir = os.path.join(base_data_path, "val")
+test_dir = os.path.join(base_data_path, "test")
 
 IMG_HEIGHT, IMG_WIDTH = 64, 64
 BATCH_SIZE = 32
