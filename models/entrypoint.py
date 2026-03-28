@@ -24,7 +24,7 @@ if os.path.exists(RL_MEMORY_PATH):
 else:
     rl_memory = []
 
-current_pred_class = None  # to store prediction for RL feedback
+current_pred_class = None  # to store prediction for RL 
 
 def open_file():
     global current_pred_class
@@ -34,8 +34,7 @@ def open_file():
     )
     if not file_path:
         return
-
-    # Display image
+        
     img = Image.open(file_path)
     img = img.resize((250, 250))
     tk_img = ImageTk.PhotoImage(img)
