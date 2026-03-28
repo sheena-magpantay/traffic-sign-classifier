@@ -26,7 +26,6 @@ for class_name in os.listdir(dataset_path):
     for img_name in os.listdir(class_path):
         img_path = os.path.join(class_path, img_name)
 
-        # --- 1. Remove corrupted images ---
         try:
             img = Image.open(img_path)
             img.verify()
@@ -35,18 +34,15 @@ for class_name in os.listdir(dataset_path):
             os.remove(img_path)
             removed_corrupted += 1
             continue
-        
-        # Re-open after verify (important)
+            
         img = Image.open(img_path)
 
-        # --- 2. Remove small/low-resolution images ---
         if img.width < MIN_WIDTH or img.height < MIN_HEIGHT:
             print("Removing small image:", img_path)
             os.remove(img_path)
             removed_small += 1
             continue
 
-        # --- 3. Remove duplicates ---
         try:
             file_hash = get_hash(img_path)
             if file_hash in seen_hashes:
@@ -59,7 +55,6 @@ for class_name in os.listdir(dataset_path):
         except:
             continue
 
-        # --- 4. Convert to RGB JPG ---
         try:
             if img.mode != "RGB":
                 img = img.convert("RGB")
@@ -74,7 +69,6 @@ for class_name in os.listdir(dataset_path):
         except Exception as e:
             print("Conversion failed:", img_path, e)
 
-# --- 5. Show dataset summary ---
 print("\n=== CLEANING SUMMARY ===")
 print("Corrupted removed:", removed_corrupted)
 print("Duplicates removed:", removed_duplicates)
