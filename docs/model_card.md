@@ -34,7 +34,7 @@ Dataset
 
 **Size:** 5,895 images
 
-**Official run subset:** Approximately 70% training, 20% validation, and 10% testing split 
+**Official run subset:** Approximately 80% training, 10% validation, and 10% testing split 
 
 **Cleaning:** Images were manually annotated and reviewed; duplicate, and incorrectly labeled samples were minimized during preprocessing
 
