@@ -5,7 +5,7 @@ import shutil
 src_dir = "data/dataset"
 dst_dir = "dataset_split"
 
-split_ratio = (0.7, 0.15, 0.15)  # train, val, test
+split_ratio = (0.7, 0.15, 0.15)  
 
 for class_name in os.listdir(src_dir):
     class_path = os.path.join(src_dir, class_name)
