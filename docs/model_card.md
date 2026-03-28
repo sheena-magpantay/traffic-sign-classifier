@@ -25,16 +25,15 @@ Factors
    - Image quality and resolution
 
 
-Training Data
+Dataset
 ----------------------------------------------
 
-  - Dataset consists of labeled traffic sign images.
-
-**Images are preprocessed using:**
-
- -  Resizing (32×32)
-
-  - Labels correspond to predefined traffic sign categories (classified with folders).
+Dataset: Philippine Traffic Sign Dataset (Roboflow Universe) by Jerry
+License: CC BY 4.0
+Size: 5,895 images
+Official run subset: Approximately 70% training, 20% validation, and 10% testing split 
+Cleaning: Images were manually annotated and reviewed; duplicate, and incorrectly labeled samples were minimized during preprocessing
+Splits: Dataset was split into training, validation, and testing sets using Roboflow’s automated split to ensure balanced class distribution
 
 Metrics
 ----------------------------------------------
@@ -43,8 +42,6 @@ Classification metrics:
   - Accuracy, Precision, Recall, F1-score
     
   - RL Cumulative Reward
-    
-  - RL Success Rate
 
 Performance (Initial Results)
 ----------------------------------------------
