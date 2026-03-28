@@ -38,7 +38,6 @@ def predict_with_rl(image_path):
     nlp_sentence = f"This is a {readable_label.lower()}" 
 
     print(f"\nCNN predicts: {readable_label} ({confidence*100:.2f}%)")
-    # Show NLP sentence (for later UI)
     print(f"NLP Output: {nlp_sentence}")
 
     while True:
