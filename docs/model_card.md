@@ -28,12 +28,18 @@ Factors
 Dataset
 ----------------------------------------------
 
-Dataset: Philippine Traffic Sign Dataset (Roboflow Universe) by Jerry
-License: CC BY 4.0
-Size: 5,895 images
-Official run subset: Approximately 70% training, 20% validation, and 10% testing split 
-Cleaning: Images were manually annotated and reviewed; duplicate, and incorrectly labeled samples were minimized during preprocessing
-Splits: Dataset was split into training, validation, and testing sets using Roboflow’s automated split to ensure balanced class distribution
+**Dataset:** Philippine Traffic Sign Dataset (Roboflow Universe) by Jerry
+
+**License:** CC BY 4.0
+
+**Size:** 5,895 images
+
+**Official run subset:** Approximately 70% training, 20% validation, and 10% testing split 
+
+**Cleaning:** Images were manually annotated and reviewed; duplicate, and incorrectly labeled samples were minimized during preprocessing
+
+**Splits:** Dataset was split into training, validation, and testing sets using Roboflow’s automated split to ensure balanced class distribution
+
 
 Metrics
 ----------------------------------------------
