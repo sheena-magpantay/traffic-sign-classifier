@@ -17,3 +17,51 @@ detect and classify different traffic signs from images input.The project involv
 dataset of traffic sign images, preprocessing the data, training the CNN model, and evaluating
 its performance in recognizing various signs.
 
+## Quickstart
+
+Follow these steps to get the Traffic Sign Recognition system up and running.
+
+### 1. Install Dependencies
+### 2. Prepare the Dataset
+### 3. Train the CNN Model
+
+```bash
+python models/finetune.py
+```
+Training logs and plots will be saved to:
+```
+experiments/
+├── logs/
+└── results/
+```
+### 4. Run Evaluation
+
+```bash
+python data/sliceAnalysis.py
+```
+
+Outputs including confusion matrix and performance graphs will appear in:
+
+```
+experiments/results/
+```
+
+### 5. Run Traffic Sign Recognition
+
+```bash
+python models/entrypoint.py
+```
+
+---
+
+## Results
+
+After training and evaluation, the following output files will be generated in `experiments/results/`:
+
+| Output | File |
+|--------|------|
+| Training history | `Training History Plot.png` |
+| Confusion matrix | `Confusion Matrix.png` |
+| Calibration curve | `Calibration Curve.png` |
+
+
