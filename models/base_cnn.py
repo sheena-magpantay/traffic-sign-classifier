@@ -133,6 +133,7 @@ plt.title("Confusion Matrix")
 plt.show()
 print(classification_report(y_true, y_pred, target_names=class_labels))
 
+# Ablation
 print("\nRunning Ablation Experiments")
 # No Dropout
 model_no_dropout = build_model(num_classes, use_dropout=False)
@@ -147,7 +148,6 @@ _, acc_no_aug = model_no_aug.evaluate(test_generator, verbose=0)
 
 _, acc_full = model.evaluate(test_generator, verbose=0)
 
-# Ablation
 results = {
     "Full Model": acc_full,
     "No Dropout": acc_no_dropout,
