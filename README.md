@@ -3,14 +3,12 @@ Recognition
 ------------------------------------------------------------------------------
 
 Members:
-
- Bacani, Cyril Cris T.
- 
- Egaran, Chelsea Felize B.
- 
- Magpantay, Sheena Marie B.
- 
- Manalo, Kisha Margarette B.
+| Team Members | Roles | 
+|---|---|---|
+| Bacani, Cyril Cris T.| Data & Ethics Lead|
+| Egaran, Chelsea Felize B.| Modeling Lead | 
+| Magpantay, Sheena Marie B.| Project Lead / Integration | 
+|  Manalo, Kisha Margarette B.| Evaluation & MLOps Lead | 
 
 OVERVIEW:
 ------------------------------------------------------------------------------
