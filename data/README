@@ -1,6 +1,25 @@
 DATASET
 -------------------------------------------------------
 The dataset that will be used for this project proposal are from the following links:
+https://universe.roboflow.com/jerry-imbhm/philippine-traffic-sign-dataset-9kz1e-qvpnr
 
--https://universe.roboflow.com/jerry-imbhm/philippine-traffic-sign-dataset-9kz1e-qvpnr
+LICENSE
+-------------------------------------------------------
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
 
+CONSENT/PII
+-------------------------------------------------------
+The dataset from the Philippine-Traffic-Sign-Dataset computer vision model consists 
+of public traffic sign images that are captured in open space/public roads. Due to these, 
+the data that were collected are representing the public infrastructure. without any private 
+individuals/humans as a subject. 
+
+The dataset complies with the Philippine Data Privacy Act of 2012. The dataset have been 
+reviewed to ensure that no Personally Identifiable Information (PII) is exposed. 
+All of the data used have blurred faces and vehicle plate numbers. 
+to ensure that the Data Privacy Act is being conducted. 
+
+REPRESENTATIVENESS: JUSTIFICATION
+-------------------------------------------------------
+.....
