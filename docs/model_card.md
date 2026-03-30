@@ -32,7 +32,7 @@ Dataset
 
 **License:** CC BY 4.0
 
-**Size:** 5,895 images
+**Size:** 5,895 images (uncleaned), 2,024 images (cleaned)
 
 **Official run subset:** Approximately 80% training, 10% validation, and 10% testing split 
 
