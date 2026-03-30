@@ -1,0 +1,12 @@
+name: traffic sign classifier
+dependencies:
+  - numpy
+  - matplotlib
+  - os
+  - pickle
+  - seaborn
+  - re
+  - tensorflow
+  - json
+  - hashlib
+ 
