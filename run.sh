@@ -4,7 +4,7 @@ set -e
 
 echo "Starting Traffic Sign Classifier Pipeline"
 
-echo -e "\n[1/6] Setting up Python Virtual Environment..."
+echo -e "\n[1/6] Setting up Environment..."
 if [ ! -d "venv" ]; then
     python3.12 -m venv venv
 fi
