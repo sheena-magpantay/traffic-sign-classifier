@@ -34,19 +34,8 @@ experiments/
 ├── logs/
 └── results/
 ```
-### 4. Run Evaluation
 
-```bash
-python data/sliceAnalysis.py
-```
-
-Outputs including confusion matrix and performance graphs will appear in:
-
-```
-experiments/results/
-```
-
-### 5. Run Traffic Sign Recognition
+### 4. Run Traffic Sign Recognition
 
 ```bash
 python models/entrypoint.py
